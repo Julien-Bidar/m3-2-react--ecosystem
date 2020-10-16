@@ -32,6 +32,9 @@ const Fruit = styled.h3`
   text-decoration: none;
   color: black;
   font-family: sans-serif;
+  &:visited {
+    text-decoration: none;
+  }
 `;
 
 const LatinName = styled.p`
